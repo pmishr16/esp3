@@ -82,13 +82,13 @@ int main()
 
    input_set = (struct user_input*) malloc(sizeof(struct user_input));
    //Taking user inputs
-   printf("Please enter input Pin1\n");
+   printf("Please enter input Pin1 ans wait\n");
    scanf("%d",&input_set->ip1);
    printf("Pin1 = %d\n",input_set->ip1);
-   printf("Please enter input Pin2\n");
+   printf("Please enter input Pin2 and wait\n");
    scanf("%d",&input_set->ip2);
    printf("Pin2 = %d\n",input_set->ip2);
-   printf("Please enter input Pin3\n");
+   printf("Please enter input Pin3 and enter\n");
    scanf("%d",&input_set->ip3);
    printf("Pin3 = %d\n",input_set->ip3);
    printf("Please enter Duty cycle\n");

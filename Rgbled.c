@@ -163,7 +163,7 @@ ssize_t rgb_driver_write(struct file *file, const char *buf,
     struct rgb_dev *rgb_devp = file->private_data;
 
     get_user(rgb_devp->in_string[0], buf);          
-    printk("Writing -- %s \n", rgb_devp->in_string);
+    printk("Writing value -- %s \n", rgb_devp->in_string);
       
     strcpy( dtm, rgb_devp->in_string );
     sscanf( dtm, "%d",&in_val);

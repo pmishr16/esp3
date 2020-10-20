@@ -107,7 +107,7 @@ int rgb_driver_open(struct inode *inode, struct file *file)
     rgb_devp = container_of(inode->i_cdev, struct rgb_dev, cdev);
 
     file->private_data = rgb_devp;
-    printk("\n%s is open \n", rgb_devp->name);
+    printk("\n%s is open and non sense\n", rgb_devp->name);
     return 0;
 }
 
